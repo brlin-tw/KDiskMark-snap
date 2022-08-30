@@ -93,4 +93,8 @@ apps:
       - udisks2
       - removable-media
       - process-control
+      # https://forum.snapcraft.io/t/possibly-missing-apparmor-network-permission/15054/29
+      # This interface workarounds a crash on launch due to the denied
+      # dac_read_search capability usage
+      - system-backup
     desktop: usr/share/applications/kdiskmark.desktop

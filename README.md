@@ -28,6 +28,7 @@ distributions.</p>
     sudo snap connect kdiskmark:hardware-observe
     sudo snap connect kdiskmark:udisks2
     sudo snap connect kdiskmark:removable-media
+    sudo snap connect kdiskmark:system-backup
 
 <!-- Uncomment and modify this when your snap is available on the store
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-snap-name)
